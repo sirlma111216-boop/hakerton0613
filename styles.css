@@ -1,14 +1,14 @@
 :root {
-    --bg-color: #0f172a;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
+    --bg-color: #f8fafc;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
     --accent: #3b82f6;
     --accent-hover: #2563eb;
-    --glass-bg: rgba(255, 255, 255, 0.05);
-    --glass-border: rgba(255, 255, 255, 0.15);
-    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --glass-bg: rgba(255, 255, 255, 0.4);
+    --glass-border: rgba(255, 255, 255, 0.6);
+    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
     --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-    --gradient-text: linear-gradient(to right, #60a5fa, #c084fc);
+    --gradient-text: linear-gradient(to right, #3b82f6, #8b5cf6);
 }
 
 * {
@@ -211,7 +211,7 @@ body {
 .code-window {
     width: 100%;
     max-width: 500px;
-    background: rgba(30, 41, 59, 0.4);
+    background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
     border-radius: 16px;
@@ -229,7 +229,7 @@ body {
 
 .window-header {
     padding: 1rem;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.5);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     display: flex;
@@ -250,7 +250,7 @@ body {
     padding: 2rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
-    color: #a8b2d1;
+    color: #334155;
     min-height: 200px;
 }
 
@@ -297,9 +297,9 @@ body {
 
 .glass-effect:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 15px 40px rgba(31, 38, 135, 0.25);
+    background: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.8);
 }
 
 .card .icon {
@@ -329,13 +329,12 @@ body {
     font-weight: 800;
 }
 
-/* Footer */
 .footer {
     padding: 3rem 10%;
     text-align: center;
     color: var(--text-secondary);
     border-top: 1px solid var(--glass-border);
-    background: #0b1120;
+    background: #f1f5f9;
 }
 
 /* Animations */
